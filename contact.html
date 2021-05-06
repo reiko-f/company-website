@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+  <title>Contact Form</title> 
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <a href="./index.html" id="logo"><i class="fas fa-boxes"></i></a>
+    </div>  
+    <div id="navbar-container">      
+      <a href="javascript:void(0)" id="close-btn" onclick="closeNavbar()"><i class="fas fa-times"></i></a>
+      <div id="navbar">
+        <a href="./service.html">SERVICE</a>
+        <a href="./works.html">WORKS</a>
+        <a href="./about.html">ABOUT</a>
+        <a href="./contact.html">CONTACT</a> 
+      </div>               
+    </div>
+    <div id="open">
+      <span class="fas fa-bars" onclick=openNavbar()></span>
+    </div>    
+  </header>
+
+  <h2>Contact Us</h2>
+  <p id="confirm-message">Thank you for contacting!</p>
+
+  <div id="form-container">    
+    <form action="">
+      <div class="input-container">        
+        <i class="far fa-smile icon"></i>
+        <input type="text" id="first-name" placeholder="first name">      
+        <input type="text" id="last-name" placeholder="last name">
+      </div>
+      <div class="input-container">
+        <i class="far fa-envelope icon"></i>
+        <input type="text" id="email" placeholder="email">
+      </div>      
+      <div class="textarea-container">      
+        <i class="far fa-comment icon"></i>
+        <textarea type="text" id="message" placeholder="write a message..."></textarea>
+      </div>
+      
+      <input type="submit" id="submit-btn" value="submit" onClick="return validation()">
+    </form>
+  </div>
+  <script src="contact.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

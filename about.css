@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  padding: 15px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  color: snow;  
+  background-color: hotpink;
+}
+
+h2 {
+  padding: 15px;
+}
+
+p {
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+#about-contents {  
+  height: 500px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  font-size: 1.2rem;
+}
+
+.content {
+  background: lightpink;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 0.25em;
+  border: 5px solid white;
+}
+
+.photo-container {
+  width: 100%;
+  height: 400px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+}
+
+.photo {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  /* border: 5px solid white; */
+}
+
+#photo1, #photo2 {
+  width: 200px;
+  height: 300px;
+  border: 5px solid white;
+}
+
+.team-container {
+  width: 100%;
+  height: 400px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+
+.team {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  text-align: center;  
+}
+
+#avatar1, #avatar2 {
+  border-radius: 50%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.info-container {
+  width: 100%;
+  height: 400px;
+  padding: 15px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;  
+}
+
+.info {
+  width: 100%;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  border: 5px solid white;
+}

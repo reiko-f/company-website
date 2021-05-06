@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="works.css">
+    <title>Works</title> 
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <a href="./index.html" id="logo"><i class="fas fa-boxes"></i></a>
+      </div>  
+      <div id="navbar-container">      
+        <a href="javascript:void(0)" id="close-btn" onclick="closeNavbar()"><i class="fas fa-times"></i></a>
+        <div id="navbar">
+          <a href="./service.html">SERVICE</a>
+          <a href="./works.html">WORKS</a>
+          <a href="./about.html">ABOUT</a>
+          <a href="./contact.html">CONTACT</a> 
+        </div>               
+      </div>
+      <div id="open">
+        <span class="fas fa-bars" onclick=openNavbar()></span>
+      </div>    
+    </header>
+    <div id="container">
+      <h2 id="about">Our Works</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam quidem assumenda dolor unde nemo recusandae odio animi velit minus quasi, ipsum excepturi. Libero soluta obcaecati tempora alias ea eum?</p>
+      <div id="works-container">
+
+        <div id="work1" class="work">
+          <h3>Work 1</h3>
+          <img class="images" src="images/work-1.jpg" width="200px" height="200px" onclick=displayModal()>          
+        </div>
+      
+        <div id="work2" class="work">
+          <h3>Work 2</h3>
+          <img class="images" src="images/work-2.jpg" width="200px" height="200px" onclick=displayModal()>
+        </div>
+
+        <div id="work3" class="work">
+          <h3>Work 3</h3>
+          <img class="images" src="images/work-3.jpg" width="200px" height="200px" onclick=displayModal()>
+        </div>
+
+        <div id="work4" class="work">
+          <h3>Work 4</h3>
+          <img class="images" src="images/work-4.jpg" width="200px" height="200px" onclick=displayModal()>
+        </div>
+
+        <div id="work5" class="work">
+          <h3>Work 5</h3>
+          <img class="images" src="images/work-5.jpg" width="200px" height="200px" onclick=displayModal()>
+        </div>
+
+        <div id="work6" class="work">
+          <h3>Work 6</h3>
+          <img class="images" src="images/work-6.jpg" width="200px" height="200px" onclick=displayModal()>
+        </div>
+
+        <div id="work7" class="work">
+          <h3>Work 1</h3>
+          <img class="images" src="images/work-7.jpg" width="200px" height="200px" onclick=displayModal()>
+        </div>
+
+        <div id="work8" class="work">
+          <h3>Work 2</h3>
+          <img class="images" src="images/work-8.jpg" width="200px" height="200px" onclick=displayModal()>
+        </div>
+
+        <div id="modal">
+          <span class="close-btn"><i class="fas fa-times"></i></span>
+          <img id="modal-image">
+        </div>
+      </div>
+    </div>
+
+  <script src="app.js"></script>
+  <script src="works.js"></script>
+</body>
+</html>

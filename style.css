@@ -1,0 +1,133 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  color: snow;
+  background: hotpink;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+/* ******************************************************************************************** */
+header {
+  background: rgb(253, 42, 147);
+  height: 70px;
+}
+
+#logo {
+  color: snow;
+  text-align: center;
+  background: rgb(253, 42, 147);
+  padding: 10px;
+}
+
+#logo > a {
+  font-size: 30px;
+  text-align: center;
+  float: right;
+}
+
+#open {
+  color: snow;
+  text-align: center;
+  background: rgb(253, 42, 147);
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+
+}
+
+#open > span {
+  font-size: 30px;
+  text-align: center;
+  float: left;
+}
+
+#navbar-container {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: hotpink;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+#navbar-container a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 30px;
+  color: snow;
+  display: block;
+  transition: 0.3s;
+}
+
+#navbar a {  
+  width: 100%;
+  text-align: center;  
+}
+
+#navbar a:hover {
+  color: snow;
+}
+
+/* ************************************************************************* */
+/* main */
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  navbar-container {padding-top: 15px;}
+  navbar-container a {font-size: 18px;}
+}
+
+#parallax {
+  background-image: url("images/home-background.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover 50%;
+  opacity: 0.7;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  #parallax {
+    background-attachment: scroll;
+  }
+}
+
+#content {
+  color: snow;
+  height: 1000px;
+  background: rgb(253, 42, 147);  
+  font-size: 36px;
+}
+
+/* footer */
+/* ****************************************************************************************** */
+#sns-container {
+  height: 45px;
+  font-size: 2em;;
+  display: flex;
+  flex-wrap: wrap;
+  color: snow;
+  text-align: center;
+  background: rgb(253, 42, 147);
+  margin: 5px;
+}
+
+#sns-container > a {
+  margin: 5px;
+}
+

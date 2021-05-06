@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <title>About</title>
+  </head>
+  <body>
+  <header>
+    <div id="logo">
+      <a href="./index.html" id="logo"><i class="fas fa-boxes"></i></a>
+    </div>  
+    <div id="navbar-container">      
+      <a href="javascript:void(0)" id="close-btn" onclick="closeNavbar()"><i class="fas fa-times"></i></a>
+      <div id="navbar">
+        <a href="./service.html">SERVICE</a>
+        <a href="./works.html">WORKS</a>
+        <a href="./about.html">ABOUT</a>
+        <a href="./contact.html">CONTACT</a> 
+      </div>               
+    </div>
+    <div id="open">
+      <span class="fas fa-bars" onclick=openNavbar()></span>
+    </div>    
+  </header>
+  <div id="container">
+    <h2 id="about">About Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam quidem assumenda dolor unde nemo recusandae odio animi velit minus quasi, ipsum excepturi. Libero soluta obcaecati tempora alias ea eum?</p>
+    <div id="about-contents">
+      <div class="content">
+        <h3>Team</h3>
+        <div class="team-container">
+          <div id="avatar1" class="team"><img src="images/team-1.jpg"></div>
+          <div class="team"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <a href="mailto:sweet@email.com" id="email"><i class="fas fa-envelope-square"></i></a></p></div>
+          <div id="avatar2" class="team"><img src="images/team-2.jpg"></div>
+          <div class="team"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In <a href="mailto:sweet@email.com" id="email"><i class="fas fa-envelope-square"></i></a></p></div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Office Image</h3>
+        <div class="photo-container">
+          <div class="photo"><img id="photo1" src="images/photo-1.jpg"></div>
+          <div class="photo"><img  id="photo2" src="images/photo-2.jpg"></div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Info</h3>
+        <div class="info-container">
+          <div class="info">
+            <p><i class="fas fa-map-marker-alt"></i> address</p>
+          </div>
+          <div class="info">
+            <p><i class="fas fa-phone"></i> phone</p>
+          </div>
+          <div class="info">
+            <p><a href="mailto:sweet@email.com" id="email"><i class="fas fa-envelope-square"></i></a> email</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <script src="about.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

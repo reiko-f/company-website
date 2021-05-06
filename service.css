@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  padding: 15px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  color: snow;  
+  background-color: hotpink;
+}
+
+h2 {
+  padding: 15px;
+}
+
+p {
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+#service-container {  
+  height: 500px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 25px;
+  font-size: 1.2rem;
+}
+
+.service {
+  background: lightpink;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 0.25em;
+  border: 5px solid white;
+}
+
+.jump-to {
+  margin-top: 10px;
+  border: 5px solid snow;
+  border-radius: 5px;
+}
